@@ -9,8 +9,8 @@ from multiprocessing import Pool
 
 
 def worker(msg):
-    print "%s begin，processing：%s" % (msg, os.getgid())
-    time.sleep(0.1)
+    print "%d begin，processing：%d" % (msg, os.getpid())
+    time.sleep(2)
 
 
 if __name__ == "__main__":
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     for i in range(10):
         p.apply_async(worker, (i,))
 
-    print "____start____"
+    print "____start____%d" % os.getpid()
     p.close()
     p.join()
     print "_____end_____"
