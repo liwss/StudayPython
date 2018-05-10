@@ -10,7 +10,9 @@ num = 0
 
 def test1():
     global num
-    mutex.acquire()
+    mutex.acquire()  # 默认参数为True
+    # True表示堵塞 即如果这个锁在上锁之前已经被上锁了，那么这个线程会在这里一直等待到解锁为止
+    # False表示非堵塞，即不管本次调用能够成功上锁，都不会卡在这,而是继续执行下面的代码
     for i in range(1000000):
         num += 1
     mutex.release()
