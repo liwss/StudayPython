@@ -9,8 +9,8 @@ from multiprocessing import Pool
 
 
 def worker(msg):
-    print "%s begin，processing：%s" % (msg, os.getpid())
-    time.sleep(0.1)
+    print "%d begin，processing：%d" % (msg, os.getpid())
+    time.sleep(2)
 
 
 if __name__ == "__main__":
