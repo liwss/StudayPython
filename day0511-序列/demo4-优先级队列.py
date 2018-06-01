@@ -2,8 +2,9 @@
 
 import heapq
 
+
 class PriorityQueue(object):
-	def __init__(self):
+    def __init__(self):
 		self._quene = []
 		self._index = 0
 
