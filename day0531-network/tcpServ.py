@@ -22,6 +22,7 @@ while True:
 		if not date:
 			break
 		tcpcli.send('[%s] %s' % (ctime(), date))
-                print '[%s] %s' % (ctime(), date)
+		print '[%s] %s' % (ctime(), date)
 	tcpcli.close()
 s.close()
+
