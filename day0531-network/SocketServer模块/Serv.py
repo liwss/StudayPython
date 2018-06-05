@@ -12,7 +12,7 @@ port = 8888
 ADDR = (host, port)
 
 
-class MyRequestHandler():
+class MyRequestHandler(SRH):
     def handle(self):
         print '...connected form:', self.client_address
         self.wfile.write('[%s] %s'% (ctime(), self.rfile.readline()))
