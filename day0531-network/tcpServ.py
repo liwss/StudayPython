@@ -16,7 +16,7 @@ while True:
 	print 'waiting for connect ......'
 	tcpcli, addr = s.accept() # 默认阻塞，直到新的连接到来，返回新的临时套接字和客户端请求信息
 	print '...connected from:',addr
-	
+
 	while True:
 		date = tcpcli.recv(bufsize) # 接收客户端请求数据
 		if not date:
@@ -25,4 +25,3 @@ while True:
                 print '[%s] %s' % (ctime(), date)
 	tcpcli.close()
 s.close()
-
