@@ -19,5 +19,3 @@ while True:
     print 'recved from add returned to :',addr
 
 s.close()
-
-    
