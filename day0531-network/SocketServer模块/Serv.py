@@ -15,12 +15,8 @@ ADDR = (host, port)
 class MyRequestHandler(SRH):
     def handle(self):
         print '...connected form:', self.client_address
-        self.wfile.write('[%s] %s'% (ctime(), self.rfile.readline()))
+        self.wfile.write('[%s] %s' % (ctime(), self.rfile.readline()))
 
 tcpServ = TCP(ADDR, MyRequestHandler)
 print 'waiting for connection ...'
 tcpServ.serve_forever()
-
-
-
-
