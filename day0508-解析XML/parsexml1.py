@@ -5,10 +5,10 @@
 # @describe : 验证xmltodict库xml转json功能
 
 import xmltodict
-
+import json
 
 xml = """<ROOT>
-	<RETURN_CODE he="123" type="long">0</RETURN_CODE>
+	<RETURN_CODE type="long">0</RETURN_CODE>
 	<RETURN_MSG type="string">ok!</RETURN_MSG>
 	<DETAIL_MSG type="string">OK!</DETAIL_MSG>
 	<PROMPT_MSG type="string"></PROMPT_MSG>
@@ -28,7 +28,9 @@ xml = """<ROOT>
 	<USER_MSG type="string">处理成功!</USER_MSG>
 </ROOT>"""
 
-xmldict = xmltodict.parse(xml)
-print xmldict
-# print xmldict['ROOT']['RETURN_CODE']['@he']
-print ['ROOT']['OUT_DATA']['CUR_SCORE']['#text']
+xmldict = xmltodict.parse(xml)    # 入参xml字符串，出参dict对象
+# print xmldict['ROOT']['RETURN_CODE']['#text']
+json_str = json.dumps(xmldict, indent=1)  # 将字典转换成json
+date = {'page': {'title': 'King Crimson', 'ns': 0, 'revision': {'id': 547909091}}}
+xml1 = xmltodict.unparse(date)   # 入参json字符串，出参xml报文
+print xml1
