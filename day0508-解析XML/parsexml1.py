@@ -30,8 +30,5 @@ xml = """<ROOT>
 
 xmldict = xmltodict.parse(xml)
 print xmldict
-print xmldict['ROOT']['RETURN_CODE']['@he']
+# print xmldict['ROOT']['RETURN_CODE']['@he']
 print ['ROOT']['OUT_DATA']['CUR_SCORE']['#text']
-
-
-
