@@ -4,7 +4,7 @@ from socket import *
 from time import ctime
 
 host = '127.0.0.1'   # 目标主机ip
-port = 8888          # 目标主机port
+port = 10086          # 目标主机port
 bufsize = 1024       # 缓存大小
 ADDr = (host, port)  
 
@@ -20,7 +20,7 @@ while True:
     date = s.recv(bufsize)    # 接收消息
     if not date:
         break
-    print '<<'+ date
+    print '<<' + date
 s.close()
 
 
