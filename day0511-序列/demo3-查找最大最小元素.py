@@ -15,11 +15,11 @@ nums = [
 	{'name': 'liws', 'age': 29}
 ]
 
-print(heapq.nsmallest(2, nums, key=lambda s: s['age'])) # 以age的值为条件
+print(heapq.nsmallest(2, nums, key=lambda s: s['age']))  # 以age的值为条件
 print(heapq.nlargest(2, nums, key=lambda s: s['age']))
 
 date1 = [1, 34, 23, 9, 12, 29,9]
-heapq.heapify(date1) # heapq.heapqify():将列表原地转换为堆，且heap[0]永远是最元素
+heapq.heapify(date1)  # heapq.heapqify():将列表原地转换为堆，且heap[0]永远是最元素
 print(date1)
 print(heapq.heappop(date1)) # heap.heappop():弹出排序好后堆中最小的元素
 print(heapq.heappop(date1))
