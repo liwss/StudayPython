@@ -1,0 +1,44 @@
+2018-08-28  17:05:21 Tue  root DEBUG D:/code/python/StudayPython/day0807-logging/demo1.py msg1 
+2018-08-28  17:05:22 Tue  root INFO D:/code/python/StudayPython/day0807-logging/demo1.py msg2 
+2018-08-28  17:05:22 Tue  root WARNING D:/code/python/StudayPython/day0807-logging/demo1.py msg3 
+2018-08-28  17:05:22 Tue  root ERROR D:/code/python/StudayPython/day0807-logging/demo1.py msg4 
+2018-08-28  17:05:22 Tue  root CRITICAL D:/code/python/StudayPython/day0807-logging/demo1.py msg5 
+2018-08-28  17:06:15  root DEBUG D:/code/python/StudayPython/day0807-logging/demo1.py msg1 
+2018-08-28  17:06:15  root INFO D:/code/python/StudayPython/day0807-logging/demo1.py msg2 
+2018-08-28  17:06:15  root WARNING D:/code/python/StudayPython/day0807-logging/demo1.py msg3 
+2018-08-28  17:06:15  root ERROR D:/code/python/StudayPython/day0807-logging/demo1.py msg4 
+2018-08-28  17:06:15  root CRITICAL D:/code/python/StudayPython/day0807-logging/demo1.py msg5 
+2018-08-28  17:06:52  DEBUG D:/code/python/StudayPython/day0807-logging/demo1.py msg1 
+2018-08-28  17:06:52  INFO D:/code/python/StudayPython/day0807-logging/demo1.py msg2 
+2018-08-28  17:06:52  WARNING D:/code/python/StudayPython/day0807-logging/demo1.py msg3 
+2018-08-28  17:06:52  ERROR D:/code/python/StudayPython/day0807-logging/demo1.py msg4 
+2018-08-28  17:06:52  CRITICAL D:/code/python/StudayPython/day0807-logging/demo1.py msg5 
+2018-08-28  17:07:28  DEBUG msg1 
+2018-08-28  17:07:28  INFO msg2 
+2018-08-28  17:07:28  WARNING msg3 
+2018-08-28  17:07:28  ERROR msg4 
+2018-08-28  17:07:28  CRITICAL msg5 
+2018-08-28  17:08:10  DEBUG msg1 ||| 
+2018-08-28  17:08:10  INFO msg2 ||| 
+2018-08-28  17:08:10  WARNING msg3 ||| 
+2018-08-28  17:08:10  ERROR msg4 ||| 
+2018-08-28  17:08:10  CRITICAL msg5 ||| 
+2018-08-28  17:08:36  DEBUG |>>> msg1  
+2018-08-28  17:08:36  INFO |>>> msg2  
+2018-08-28  17:08:36  WARNING |>>> msg3  
+2018-08-28  17:08:36  ERROR |>>> msg4  
+2018-08-28  17:08:36  CRITICAL |>>> msg5  
+2018-08-28  17:09:32  DEBUG |>>>>> msg1  
+2018-08-28  17:09:32  INFO |>>>>> msg2  
+2018-08-28  17:09:32  WARNING |>>>>> msg3  
+2018-08-28  17:09:32  ERROR |>>>>> msg4  
+2018-08-28  17:09:32  CRITICAL |>>>>> msg5  
+2018-08-28  17:10:08  DEBUG |>>>>> msg1  
+2018-08-28  17:10:08  DEBUG |>>>>> msg1  
+2018-08-28  17:10:08  DEBUG |>>>>> msg1  
+2018-08-28  17:10:39  DEBUG |>>>>> [msg1] 
+2018-08-28  17:10:39  DEBUG |>>>>> [msg1] 
+2018-08-28  17:10:39  DEBUG |>>>>> [msg1] 
+2018-08-28  17:23:41  DEBUG |>>>>> [msg1:10] 
+2018-08-28  17:23:41  DEBUG |>>>>> [msg1] 
+2018-08-28  17:23:41  DEBUG |>>>>> [msg1] 
