@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG,
                     filename=r"D:\code\python\StudayPython\day0807-logging\debug.log"
                     # 有了filename参数就不会直接输出显示到控制台，而是直接写入文件
                     )
-rows = '10'
+
 logging.debug("msg1:"+rows)
 logging.debug("msg1")
 logging.debug("msg1")
