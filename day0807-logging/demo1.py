@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG,
                     # 有了filename参数就不会直接输出显示到控制台，而是直接写入文件
                     )
 
-logging.debug("msg1:"+rows)
+logging.debug("msg1:")
 logging.debug("msg1")
 logging.debug("msg1")
 
