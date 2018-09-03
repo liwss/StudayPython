@@ -6,11 +6,15 @@
 
 import time
 
-f = open("test.txt", "r")
-for index, data in enumerate(f.readlines()):
-    print (index, '-----------'+data.strip())
-    time.sleep(0.5)
+# f = open("test.txt", "r")
+# for index, data in enumerate(f.readlines()):
+#     # readline()和readlines()把文件内容读到内存中，适合小文件，读大文件可能导致内存不足
+#     print (index, '-----------'+data.strip())
+#     time.sleep(0.5)
 
+f = open("test.txt", "r")   # 可以读取大文件且效率高，f迭代器方式取出，每读取一行就会覆盖之前的，所以不会内存不足
+for line in f:
+    print (line.strip())
 
 
 
