@@ -2,7 +2,7 @@
 
 # @Author   : lws
 # @Time     : 2018/9/4 10:31
-# @describe :
+# @describe : 装饰器（高阶函数+函数嵌套）
 
 import time
 
