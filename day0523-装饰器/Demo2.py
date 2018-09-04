@@ -16,13 +16,13 @@ def timer(func):
     return deco
 
 
-@timer
+@timer  # test1 = timer(test1)
 def test1():
     time.sleep(1)
     print ("in the test1")
 
 
-@timer
+@timer  # test2 = timer(test2)
 def test2():
     time.sleep(1)
     print ("in the test2")
