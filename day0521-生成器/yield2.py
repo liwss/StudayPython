@@ -13,9 +13,12 @@ def Test():
 
 
 t = Test()
-print t.next()
-print t.next()
-print t.next()
+a = t.next()
+print a
+b = t.next()
+print b
+c = t.next()
+print c
 
 
 
