@@ -13,8 +13,10 @@ def Test():
         i+=1
 
 t = Test()
-t.send(None)
+# t.send(None)
 print t.next()
-t.send("haha")   # 相当于把haha给yield i的整体
+print t.send("test")
+
+# t.send("haha")   # 相当于把haha给yield i的整体
 
 
