@@ -16,6 +16,17 @@ for child in root:      # 遍历根节点下的一级子节点
     for i in child:     # 遍历二级子节点
         print (i.tag, i.attrib, i.text)
 
-
 for node in root.iter('CUR_SCORE'):  # 遍历查询xml中某个节点
     print node.text
+
+# 修改xml节点值及属性
+for node in root.iter("RETURN_CODE"):
+     node.text = '0000'             # 需要修改的节点值
+     node.set('type', 'string')     # 修改属性值
+     node.set('test', 'test')       # 新增属性及赋值
+tree.write('xml')                   # 写入文件
+
+# 删除xml节点
+for node in root.findall("RETURN_MSG"):  # 遍历查询需要删除的节点
+    root.remove(node)               # 删除节点
+tree.write('xml')                   # 写入文件
