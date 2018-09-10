@@ -8,18 +8,32 @@ import xml.etree.ElementTree as ET
 
 xmlstr = """
 <root>
-    <name>liws</name>
+    <person>
+        <name>liws</name>
+        <age>20</age>
+    </person>
+    <person>
+        <name>820</name>
+        <age>15</age>
+    </person>
 </root>
 """
+tree = ET.fromstring(xmlstr)
+print tree.tag      # 获取根节点
 
-root = ET.fromstring(xmlstr)
-print root.tag
-
-for node in root.iter('name'):  # 遍历查询xml中某个节点
+for node in tree.iter('age'):  # 遍历查询xml中某个节点
     print node.text
 
-name = root.getiterator('name')
-for i in name:
-    print i.text
+# name = tree.getiterator('name')  # 获得指定节点
+# for i in name:
+#     print i.text
+
+name = tree.findall('person')
+print name
+for node in name:
+    for i in node:
+        print i.text
+
+
 
 
