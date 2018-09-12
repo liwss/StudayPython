@@ -6,6 +6,9 @@
 
 
 class Person(object):
+    age1 = '820'
+    a = 'zh'
+
     def __init__(self, name):
         self.name = name
 
@@ -13,5 +16,10 @@ class Person(object):
     def eat(name):
         print ("%s is eating......" % name)
 
+    @classmethod
+    def eat1(cls):
+        print ("%s is eating......" % cls.age1)
 
-Person.eat('lws ')
+
+a = Person('lws')
+a.eat1()
