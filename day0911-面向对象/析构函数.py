@@ -2,7 +2,7 @@
 
 # @Author   : lws
 # @Time     : 2018/9/12 10:32
-# @describe : 
+# @describe : 对象只有引用计数为0时，才会被销毁而调用析构函数
 
 import time
 
