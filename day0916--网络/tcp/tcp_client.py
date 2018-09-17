@@ -13,8 +13,10 @@ while True:
     if not data:
         break
     s.send(data)
-    print ("发送数据成功[%s]" % data)
-    data = s.recv(1)
+    print ("客户端发送数据[%s]" % data)
+    data = s.recv(1024)
+    print ("客户端即将接收服务端数据包大小[%s]" % data)
+    s.send("数据包大小已接收")   # 给服务端返回数据包大小已接收，从而服务端发送数据体
     recvsize = data     # 接收服务端发过来的数据包大小
     datasize = 0
     recvdata = ''
@@ -22,5 +24,5 @@ while True:
         data = s.recv(1)
         datasize += len(data)
         recvdata += data
-    print ("接收数据成[%s]" % recvdata)
+    print ("客户端真实接收数据[%s],大小[%s]" % (recvdata, datasize))
 s.close()
