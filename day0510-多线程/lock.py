@@ -30,8 +30,8 @@ def test2():
 if __name__ == "__main__":
     mutex = Lock()
     t1 = Thread(target=test1)
-    t1.start()
     t2 = Thread(target=test2)
+    t1.start()
     t2.start()
     print "num:%d" % num
 
