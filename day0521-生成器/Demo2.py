@@ -1,17 +1,17 @@
-# -*- coding: gbk -*-
+# -*- coding: utf-8 -*-
 
 # @Author   : lws
 # @Time     : 2018/9/5 15:31
-# @describe : Ğ­³Ì
+# @describe : åç¨‹
 
 import time
 
 
 def consumer(name):
-    print("%s ×¼±¸³Ô°ü×ÓÁË" %name)
+    print("%s å‡†å¤‡åƒåŒ…å­äº†" %name)
     while True:
        baozi = yield
-       print("°ü×Ó[%s]À´ÁË,±»[%s]³ÔÁË!" %(baozi,name))
+       print("åŒ…å­[%s]æ¥äº†,è¢«[%s]åƒäº†!" %(baozi,name))
 
 c = consumer("ChenRonghua")
 c.next()
@@ -22,10 +22,10 @@ def producer(name):
     c2 = consumer('B')
     c.next()
     c2.next()
-    print("ÀÏ×Ó¿ªÊ¼×¼±¸×ö°ü×ÓÀ²!")
+    print("è€å­å¼€å§‹å‡†å¤‡åšåŒ…å­å•¦!")
     for i in range(10):
         time.sleep(5)
-        print("×öÁË1¸ö°ü×Ó,·ÖÁ½°ë!")
+        print("åšäº†1ä¸ªåŒ…å­,åˆ†ä¸¤åŠ!")
         c.send(i)
         c2.send(i)
 
