@@ -11,7 +11,6 @@
 import time, sys, queue
 from multiprocessing.managers import BaseManager
 
-
 # 创建类似的QueueManager
 class QueueManager(BaseManager):
     pass
@@ -22,9 +21,9 @@ QueueManager.register('get_result_queue')
 
 # 连接到服务器，也就是运行task_master.py的机器
 server_addr = '127.0.0.1'
-print('connect to server %s...' % server_addr)
+print('connect to server %s...'% server_addr)
 # 端口和验证码注意要保持完全一致
-m = QueueManager(address=(server_addr, 5000), authkey=b'abc')
+m = QueueManager(address=(server_addr,5000),authkey=b'abc')
 # 从网络连接
 m.connect()
 # 获取Queue的对象
