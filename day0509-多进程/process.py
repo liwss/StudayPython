@@ -16,7 +16,7 @@ def test(name):
 if __name__ == "__main__":
     p = Process(target=test, args=("liws",))
     p.start()
-    p.join(1)      # 是否等待进程实例结束，参数为等待timeout
+    p.join(1)      # 是否等待进程实例结束，参数为等待timeout，默认一直等待
     print "_____end_____"
 
 
