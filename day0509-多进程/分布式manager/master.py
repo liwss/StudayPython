@@ -24,12 +24,12 @@ class QueueManager(BaseManager):
 
 
 # win7 64 貌似不支持callable下调用匿名函数lambda，这里封装一下
-def return_task_queue():
+def return_task_queue():    # 等价lambda:task_queue
     global task_queue
     return task_queue
 
 
-def return_result_queue():
+def return_result_queue():  # 等价lambda:result_queue
     global result_queue
     return result_queue
 
