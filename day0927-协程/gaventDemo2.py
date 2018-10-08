@@ -6,6 +6,8 @@
 
 
 import gevent
+from gevent import monkey
+monkey.patch_all()  # 把当前程序的所有的io操作给我单独的做上标记
 
 
 def test1():
