@@ -25,7 +25,7 @@ while True:
     readable, writeable, exceptional = select.select(inputs, [], [], 1)
     print readable
     # 数据抵达，循环
-    for sock in readable:
+    for sock in readable:   # readable即被触发的套接字列表
         # print 'sock:', sock
         # 监听到有新的连接
         if sock is server:  # 服务端套接字被触发，说明是有新的客户端连接过来
