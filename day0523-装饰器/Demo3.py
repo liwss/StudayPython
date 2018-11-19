@@ -14,7 +14,7 @@ def test1(func):
     return test2
 
 
-@test1   # test3 = test(test3)
+@test1   # test3 = test1(test3)
 def test3():
     print '----------test3--------------'
 
