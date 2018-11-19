@@ -2,7 +2,7 @@
 
 # @Author   : lws
 # @Time     : 2018/11/19 9:05
-# @describe : 
+# @describe : kazoo基础用法
 
 from kazoo.client import KazooClient
 from kazoo.client import KazooState
@@ -61,4 +61,7 @@ while True:
         zk.create("/lws/test/2", b"value two")
         zk.create("/lws/test/3", b"value three")
         print 'create zNode success'
+
+
+# zk.stop() # 断开连接
 
