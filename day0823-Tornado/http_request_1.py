@@ -18,6 +18,7 @@ define("port", default=8000, type=int, help="run on geiven port")
 class IndexHandler(tornado.web.RequestHandler):
     pass
 
+
 if __name__ == '__main__':
     tornado.options.parse_command_line()
     app = tornado.web.Application(handlers=[(r'/lws/test', IndexHandler)])

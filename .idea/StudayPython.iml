@@ -4,5 +4,16 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 2.7.12 (C:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="RedisNote" />
+    <orderEntry type="module" module-name="PolicyCtrlCent" />
+    <orderEntry type="module" module-name="pcm-manager" />
+    <orderEntry type="module" module-name="DtServ" />
+    <orderEntry type="module" module-name="PosCard" />
+    <orderEntry type="module" module-name="HTML" />
+    <orderEntry type="module" module-name="ESBtest" />
+    <orderEntry type="module" module-name="idmm3-manager" />
+    <orderEntry type="module" module-name="MyFTP" />
+    <orderEntry type="module" module-name="bottle" />
+    <orderEntry type="module" module-name="bus_server" />
   </component>
 </module>

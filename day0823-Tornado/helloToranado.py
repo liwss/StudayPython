@@ -24,6 +24,8 @@ class IndexHandler(tornado.web.RequestHandler):
     def post(self, *args, **kwargs):
         print '-----------------------'
         return self.write("hello world")
+
+
 if __name__ == "__main__":
     tornado.options.parse_command_line()   # options模块解析命令行
     app = tornado.web.Application(handlers=[(r"/", IndexHandler), (r"/liws/rest", IndexHandler)])

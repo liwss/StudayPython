@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DtServ/.idea/DtServ.iml" filepath="$PROJECT_DIR$/../DtServ/.idea/DtServ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ESBtest/.idea/ESBtest.iml" filepath="$PROJECT_DIR$/../ESBtest/.idea/ESBtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HTML/.idea/HTML.iml" filepath="$PROJECT_DIR$/../HTML/.idea/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyFTP/.idea/MyFTP.iml" filepath="$PROJECT_DIR$/../MyFTP/.idea/MyFTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PolicyCtrlCent/.idea/PolicyCtrlCent.iml" filepath="$PROJECT_DIR$/../PolicyCtrlCent/.idea/PolicyCtrlCent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PosCard/.idea/PosCard.iml" filepath="$PROJECT_DIR$/../PosCard/.idea/PosCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RedisNote/.idea/RedisNote.iml" filepath="$PROJECT_DIR$/../RedisNote/.idea/RedisNote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StudayPython.iml" filepath="$PROJECT_DIR$/.idea/StudayPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bottle/.idea/bottle.iml" filepath="$PROJECT_DIR$/../bottle/.idea/bottle.iml" />
+      <module fileurl="file://F:/工作/项目/bus_server/.idea/bus_server.iml" filepath="F:/工作/项目/bus_server/.idea/bus_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../idmm3-manager/.idea/idmm3-manager.iml" filepath="$PROJECT_DIR$/../idmm3-manager/.idea/idmm3-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pcm-manager/.idea/pcm-manager.iml" filepath="$PROJECT_DIR$/../pcm-manager/.idea/pcm-manager.iml" />
     </modules>
   </component>
 </project>
