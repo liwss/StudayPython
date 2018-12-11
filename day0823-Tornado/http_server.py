@@ -12,9 +12,10 @@ import time
 
 class IndexHandler(tornado.web.RequestHandler):
     def post(self, *args, **kwargs):
-        print self.request.body
+        print(str(self.request.body, encoding='utf-8'))  # python3+使用
+        # print self.request.body                        # python2+使用
         # time.sleep(1)
-        self.write('ok')
+        self.write('liws')
 
 
 if __name__ == '__main__':
