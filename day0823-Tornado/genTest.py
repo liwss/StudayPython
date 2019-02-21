@@ -8,12 +8,13 @@
 from tornado import gen
 import tornado.httpclient
 import tornado.ioloop
+import tornado.concurrent
 
 
 @gen.coroutine
 def call_server():
     http_client = tornado.httpclient.AsyncHTTPClient()
-    response = yield http_client.fetch(request='http://127.0.0.1:8000/index', method='POST', body='test')
+    response = yield http_client.fetch(request='http://127.0.0.1:8000/test/server', method='POST', body='test')
     # print response.body                           # python2+使用
     print(str(response.body, encoding='utf-8'))     # python3+使用
 
@@ -26,6 +27,4 @@ async def call_server1():
 
 
 if __name__ == '__main__':
-    tornado.ioloop.IOLoop.instance().run_sync(call_server1)
-
-
+    tornado.ioloop.IOLoop.instance().run_sync(call_server)

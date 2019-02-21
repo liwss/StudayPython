@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59679d2f-e37e-42b8-95c6-1ff69eedcae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day0823-Tornado/genTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/StudayPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StudayPython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0823-Tornado/gen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day0823-Tornado/http_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/day0823-Tornado/http_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0823-Tornado/genTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/day0823-Tornado/genTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0823-Tornado/helloToranado.py" beforeDir="false" afterPath="$PROJECT_DIR$/day0823-Tornado/helloToranado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0823-Tornado/http_request_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day0823-Tornado/http_request_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,47 +15,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StudayPython$Demo3.coverage" NAME="Demo3 Coverage Results" MODIFIED="1545205216313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0521-生成器" />
     <SUITE FILE_PATH="coverage/StudayPython$bus_cli.coverage" NAME="bus_cli Coverage Results" MODIFIED="1544067499918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test/monitor" />
-    <SUITE FILE_PATH="coverage/StudayPython$cli.coverage" NAME="cli Coverage Results" MODIFIED="1544177668723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test" />
-    <SUITE FILE_PATH="coverage/StudayPython$bus_server.coverage" NAME="bus_server Coverage Results" MODIFIED="1544177075809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/src" />
+    <SUITE FILE_PATH="coverage/StudayPython$cli.coverage" NAME="cli Coverage Results" MODIFIED="1544759789650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test" />
+    <SUITE FILE_PATH="coverage/StudayPython$bottletest.coverage" NAME="bottletest Coverage Results" MODIFIED="1545185973532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../bottle" />
+    <SUITE FILE_PATH="coverage/StudayPython$bus_server.coverage" NAME="bus_server Coverage Results" MODIFIED="1545181558918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/src" />
     <SUITE FILE_PATH="coverage/StudayPython$gen.coverage" NAME="gen Coverage Results" MODIFIED="1544519127988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0823-Tornado" />
     <SUITE FILE_PATH="coverage/StudayPython$http_server.coverage" NAME="http_server Coverage Results" MODIFIED="1544521925600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0823-Tornado" />
-    <SUITE FILE_PATH="coverage/StudayPython$httpServer.coverage" NAME="httpServer Coverage Results" MODIFIED="1544177149918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test/monitor" />
-    <SUITE FILE_PATH="coverage/StudayPython$genTest.coverage" NAME="genTest Coverage Results" MODIFIED="1544521927613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0823-Tornado" />
+    <SUITE FILE_PATH="coverage/StudayPython$.coverage" NAME="类方法 Coverage Results" MODIFIED="1544667375448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0911-面向对象" />
+    <SUITE FILE_PATH="coverage/StudayPython$genTest.coverage" NAME="genTest Coverage Results" MODIFIED="1544691942561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0823-Tornado" />
+    <SUITE FILE_PATH="coverage/StudayPython$bus_client.coverage" NAME="bus_client Coverage Results" MODIFIED="1545181644006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test/monitor" />
+    <SUITE FILE_PATH="coverage/StudayPython$httpServer.coverage" NAME="httpServer Coverage Results" MODIFIED="1545185975342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/工作/项目/bus_server/test/monitor" />
+    <SUITE FILE_PATH="coverage/StudayPython$test.coverage" NAME="test Coverage Results" MODIFIED="1545185977399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../bottle" />
+    <SUITE FILE_PATH="coverage/StudayPython$tcp_client.coverage" NAME="tcp_client Coverage Results" MODIFIED="1544598045696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0916--网络/异步socket" />
+    <SUITE FILE_PATH="coverage/StudayPython$Demo4.coverage" NAME="Demo4 Coverage Results" MODIFIED="1545206478421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0521-生成器" />
+    <SUITE FILE_PATH="coverage/StudayPython$server.coverage" NAME="server Coverage Results" MODIFIED="1544598029041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0916--网络/异步socket" />
+    <SUITE FILE_PATH="coverage/StudayPython$http_request_1.coverage" NAME="http_request_1 Coverage Results" MODIFIED="1545098787681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day0823-Tornado" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day0823-Tornado/http_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="e#93#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day0823-Tornado/genTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-              <folding>
-                <element signature="e#90#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -71,6 +68,17 @@
       <find>Future</find>
       <find>add_done_callback</find>
       <find>print</find>
+      <find>future</find>
+      <find>class</find>
+      <find>_clear_tb_log</find>
+      <find>__await__</find>
+      <find>_callbacks</find>
+      <find>instance</find>
+      <find>Lock</find>
+      <find>initialize</find>
+      <find>make_current</find>
+      <find>configurable_default</find>
+      <find>start</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,55 +87,62 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="F:/工作/项目/bus_server/src/bus_server.py" />
         <option value="F:/工作/项目/bus_server/tpl/600001_1_req.tpl.py" />
-        <option value="F:/工作/项目/bus_server/test/monitor/httpServer.py" />
-        <option value="F:/工作/项目/bus_server/test/cli.py" />
         <option value="$PROJECT_DIR$/../WebApp/html/demo8.html" />
         <option value="$PROJECT_DIR$/../WebApp/js/common.js" />
         <option value="$PROJECT_DIR$/day0823-Tornado/gen.py" />
+        <option value="$PROJECT_DIR$/../WebApp/js/demo_str.js" />
+        <option value="$PROJECT_DIR$/../WebApp/js/demo1.html" />
+        <option value="$PROJECT_DIR$/../WebApp/js/demo2.html" />
+        <option value="$PROJECT_DIR$/day0916--网络/tcp/tcp_client.py" />
+        <option value="$PROJECT_DIR$/day0916--网络/异步socket/tcp_client.py" />
+        <option value="$PROJECT_DIR$/day0916--网络/异步socket/server.py" />
+        <option value="$PROJECT_DIR$/day0911-面向对象/类方法.py" />
+        <option value="$PROJECT_DIR$/../WebApp/test.py" />
+        <option value="F:/工作/项目/bus_server/src/bus_server.py" />
+        <option value="F:/工作/项目/bus_server/test/cli.py" />
+        <option value="F:/工作/项目/bus_server/tpl/700111_1_req.tpl.py" />
+        <option value="$PROJECT_DIR$/day0823-Tornado/http_request_1.py" />
         <option value="$PROJECT_DIR$/day0823-Tornado/http_server.py" />
+        <option value="F:/工作/项目/bus_server/test/monitor/bus_client.py" />
+        <option value="F:/工作/项目/bus_server/test/monitor/buscom.py" />
+        <option value="$PROJECT_DIR$/../bottle/bottletest.py" />
+        <option value="$PROJECT_DIR$/day0521-生成器/Demo3.py" />
+        <option value="$PROJECT_DIR$/day0521-生成器/Demo4.py" />
         <option value="$PROJECT_DIR$/day0823-Tornado/genTest.py" />
+        <option value="F:/工作/项目/bus_server/test/monitor/httpServer.py" />
+        <option value="$PROJECT_DIR$/../bottle/test.py" />
+        <option value="$PROJECT_DIR$/day0823-Tornado/helloToranado.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="StudayPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudayPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudayPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudayPython" type="462c0819:PsiDirectoryNode" />
-              <item name="day0823-Tornado" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/工作/项目/bus_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sx_uipserver" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\工作\项目\bus_server\test\monitor" />
+      <recent name="F:\工作\项目\bus_server\tpl" />
+      <recent name="D:\code\python\StudayPython\day0916--网络\异步socket" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\python\WebApp\html" />
     </key>
@@ -144,21 +159,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.genTest">
-    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bus_server" />
+  <component name="RunManager" selected="Python.Demo4">
+    <configuration name="Demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="StudayPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/工作/项目/bus_server/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0521-生成器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/工作/项目/bus_server/test/cli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day0521-生成器/Demo3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StudayPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0823-Tornado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0521-生成器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\code\python\StudayPython\day0823-Tornado\genTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day0521-生成器/Demo4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,20 +204,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="genTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="StudayPython" />
+    <configuration name="bottletest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0823-Tornado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../bottle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day0823-Tornado/genTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../bottle/bottletest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,20 +248,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="http_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="StudayPython" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day0823-Tornado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../bottle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day0823-Tornado/http_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../bottle/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,18 +272,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.httpServer" />
-      <item itemvalue="Python.cli" />
-      <item itemvalue="Python.gen" />
-      <item itemvalue="Python.http_server" />
-      <item itemvalue="Python.genTest" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.bottletest" />
+      <item itemvalue="Python.Demo3" />
+      <item itemvalue="Python.Demo4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.genTest" />
-        <item itemvalue="Python.http_server" />
-        <item itemvalue="Python.gen" />
-        <item itemvalue="Python.cli" />
+        <item itemvalue="Python.Demo4" />
+        <item itemvalue="Python.Demo3" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.httpServer" />
+        <item itemvalue="Python.bottletest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +305,23 @@
       <workItem from="1544246734323" duration="8973000" />
       <workItem from="1544407131630" duration="5129000" />
       <workItem from="1544440070685" duration="2372000" />
-      <workItem from="1544488999382" duration="11832000" />
+      <workItem from="1544488999382" duration="12512000" />
+      <workItem from="1544531310155" duration="3886000" />
+      <workItem from="1544575434392" duration="14155000" />
+      <workItem from="1544617470264" duration="1216000" />
+      <workItem from="1544661975213" duration="12346000" />
+      <workItem from="1544700594841" duration="807000" />
+      <workItem from="1544748159466" duration="8326000" />
+      <workItem from="1544770468913" duration="4106000" />
+      <workItem from="1545011456317" duration="5743000" />
+      <workItem from="1545094872763" duration="11875000" />
+      <workItem from="1545179906366" duration="15993000" />
+      <workItem from="1545266513946" duration="856000" />
+      <workItem from="1545358513981" duration="5778000" />
+      <workItem from="1545450923832" duration="1938000" />
+      <workItem from="1545616608212" duration="196000" />
+      <workItem from="1545616908310" duration="665000" />
+      <workItem from="1545719311093" duration="786000" />
     </task>
     <task id="LOCAL-00001" summary="tornado协程">
       <created>1543995396038</created>
@@ -299,11 +330,39 @@
       <option name="project" value="LOCAL" />
       <updated>1543995396038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tornado协程">
+      <created>1544522294241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544522294241</updated>
+    </task>
+    <task id="LOCAL-00003" summary="classmethod">
+      <created>1544671290740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544671290740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="classmethod">
+      <created>1545205749098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545205749112</updated>
+    </task>
+    <task id="LOCAL-00005" summary="yield">
+      <created>1545210924279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545210924279</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38791000" />
+    <option name="totallyTimeSpent" value="128143000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -315,10 +374,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,24 +387,25 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32843137" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.70212764" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38134205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,211 +428,335 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tornado协程" />
-    <option name="LAST_COMMIT_MESSAGE" value="tornado协程" />
+    <MESSAGE value="classmethod" />
+    <MESSAGE value="yield" />
+    <option name="LAST_COMMIT_MESSAGE" value="yield" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>next(t)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/工作/项目/bus_server/tpl/111111_1_req.tpl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/工作/项目/bus_server/tpl/111111_1_rsp.tpl.py">
+    <entry file="file://F:/工作/项目/bus_server/tpl/600210_1_req.tpl.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Python27/Lib/logging/__init__.py">
+    <entry file="file://F:/工作/项目/bus_server/tpl/600001_1_rsp.tpl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="949" column="22" lean-forward="true" selection-start-line="949" selection-start-column="22" selection-end-line="949" selection-end-column="22" />
+        <state relative-caret-position="319">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/logs/bus_server.log">
+    <entry file="file://D:/Software/python3.7/Lib/textwrap.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PolicyCtrlCent/com/sitech/main/proc_engine.py">
+    <entry file="file://$PROJECT_DIR$/day0916--网络/tcp/tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197" />
-      </provider>
-    </entry>
-    <entry file="file://F:/工作/项目/bus_server/src/bus_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="84" column="32" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="209">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/test/monitor/httpServer.py">
+    <entry file="file://$PROJECT_DIR$/day0916--网络/tcp/tcp_serv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0916--网络/socketserv/tcp_cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0916--网络/异步socket/server.py" />
+    <entry file="file://$PROJECT_DIR$/day0916--网络/异步socket/tcp_client.py" />
+    <entry file="file://$PROJECT_DIR$/day0916--网络/select/epoll_serv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0916--网络/select/select_serv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ESBtest/ESBtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/test/monitor/bus_cli.py">
+    <entry file="file://F:/工作/项目/bus_server/tpl/690001_1_req.tpl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="893">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/test/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/html/demo5.html">
+    <entry file="file://$PROJECT_DIR$/day0911-面向对象/静态方法.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/html/demo6.html">
+    <entry file="file://$PROJECT_DIR$/day0911-面向对象/多态.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RedisNote/PythonRedis/redis_cli.py">
+    <entry file="file://$PROJECT_DIR$/day0911-面向对象/继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PosCard/MyXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PosCard/PosCardServ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0911-面向对象/类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/tpl/600001_1_req.tpl.py">
+    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/platform/asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="-1548">
+          <caret line="194" column="6" selection-start-line="194" selection-start-column="6" selection-end-line="194" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/tpl/700002_1_req.tpl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/html/demo7.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/html/demo8.html">
+    <entry file="file://F:/工作/项目/bus_server/tpl/711102_1_req.tpl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="12" column="9" selection-start-line="11" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/httpclient.py">
+    <entry file="file://F:/工作/项目/bus_server/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="208" column="8" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/tpl/700111_1_req.tpl.py" />
+    <entry file="file://$PROJECT_DIR$/../WebApp/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/tornado/concurrent.py">
+    <entry file="file://C:/Python27/Lib/site-packages/tornado/ioloop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="294" column="8" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
+          <caret line="632" column="8" selection-start-line="632" selection-start-column="8" selection-end-line="632" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4313">
+          <caret line="242" column="9" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/concurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="355" column="18" lean-forward="true" selection-start-line="355" selection-start-column="18" selection-end-line="355" selection-end-column="18" />
           <folding>
             <element signature="e#1198#1262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/concurrent.py">
+    <entry file="file://F:/工作/项目/bus_server/src/down_bus_server.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/src/http_server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/test/HttpServerDemo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/test/cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/工作/项目/bus_server/doc/协程.py">
+    <entry file="file://F:/工作/项目/bus_server/tpl/600001_1_req.tpl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="211" column="45" selection-start-line="211" selection-start-column="30" selection-end-line="211" selection-end-column="45" />
+        <state relative-caret-position="10">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/test/monitor/bus_cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/test/monitor/buscom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/工作/项目/bus_server/test/monitor/bus_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/bottle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2809">
+          <caret line="3728" selection-start-line="3728" selection-end-line="3728" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bottle/bottletest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-822191106/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1563">
+          <caret line="787" column="8" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="327" column="28" selection-start-line="327" selection-start-column="8" selection-end-line="327" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0521-生成器/Demo2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0521-生成器/Demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0521-生成器/Demo4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/ioloop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Software/python3.7/Lib/logging/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DtServ/DtServ.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DtServ/queueTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="176">
+          <caret line="1183" column="10" selection-start-line="1183" selection-start-column="5" selection-end-line="1183" selection-end-column="10" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#1205#1269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebApp/httpServer.py">
+    <entry file="file://F:/工作/项目/bus_server/src/bus_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="133">
+          <caret line="94" column="32" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="32" />
           <folding>
-            <element signature="e#91#109#0" expanded="true" />
+            <element signature="e#20#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day0823-Tornado/helloToranado.py">
+    <entry file="file://F:/工作/项目/bus_server/test/monitor/httpServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
+        <state relative-caret-position="409">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#100#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bottle/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#90#105#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day0823-Tornado/http_request_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/httpclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="222" column="8" selection-start-line="222" selection-start-column="8" selection-end-line="222" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#117#135#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day0823-Tornado/http_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day0823-Tornado/http_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="452">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="e#93#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day0823-Tornado/http_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#111#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day0823-Tornado/genTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="513">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#90#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Software/python3.7/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2019">
+          <caret line="408" column="8" selection-start-line="408" selection-start-column="8" selection-end-line="408" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day0823-Tornado/helloToranado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ import tornado.web
 import tornado.options
 import tornado.httpserver
 import tornado.ioloop
+from tornado import gen
 
 
 from tornado.options import define, options
@@ -16,7 +17,10 @@ define("port", default=8000, type=int, help="run on geiven port")
 
 
 class IndexHandler(tornado.web.RequestHandler):
-    pass
+
+    @gen.coroutine
+    def post(self):
+        pass
 
 
 if __name__ == '__main__':

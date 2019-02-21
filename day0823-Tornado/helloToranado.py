@@ -17,6 +17,7 @@ define("port", default=8000, help="run on geiven port", type=int)
 class IndexHandler(tornado.web.RequestHandler):
     """响应请求的类里定义同名相应http方法(如get post put ...)"""
     def get(self):  # 定义get方法，处理get请求
+        self.get_arguments()
         greeting = self.get_argument('greeting', 'Hello')
         # 如果查询字符串没有第一个参数值，则使用第二个参数为默认值  127.0.0.1:8000/?greeting=lws
         self.write(greeting + ', friendly user!')  # 以字符串作为参数，将其写入http的响应
