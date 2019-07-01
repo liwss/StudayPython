@@ -11,11 +11,11 @@ import time
 
 
 class IndexHandler(tornado.web.RequestHandler):
-    def post(self, *args, **kwargs):
-        print(str(self.request.body, encoding='utf-8'))  # python3+使用
+    def get(self, *args, **kwargs):
+        # print(str(self.request.body, encoding='utf-8'))  # python3+使用
         # print self.request.body                        # python2+使用
         # time.sleep(1)
-        self.write('liws')
+        self.write('{"age":"20","name":"lws","other":{"addr":"china","phone":"123456"}}')
 
 
 if __name__ == '__main__':
