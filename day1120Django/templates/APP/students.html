@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+</head>
+<body>
+    <h1>班级信息列表</h1>
+    <u1>
+        {% for stu in students %}
+        <Li>
+            <a href="#">{{ stu.name }}</a>
+        </Li>
+        {% endfor %}
+    </u1>
+</body>
+</html>

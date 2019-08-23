@@ -13,9 +13,13 @@ import time
 class IndexHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         # print(str(self.request.body, encoding='utf-8'))  # python3+使用
-        # print self.request.body                        # python2+使用
+        print self.request.body                        # python2+使用
         # time.sleep(1)
         self.write('{"age":"20","name":"lws","other":{"addr":"china","phone":"123456"}}')
+
+    def post(self, *args, **kwargs):
+        print self.request.body
+        self.write("""{"returncode":"0","returnmsg":"ok"}""")
 
 
 if __name__ == '__main__':
