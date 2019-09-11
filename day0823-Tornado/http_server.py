@@ -18,8 +18,9 @@ class IndexHandler(tornado.web.RequestHandler):
         self.write('{"age":"20","name":"lws","other":{"addr":"china","phone":"123456"}}')
 
     def post(self, *args, **kwargs):
+        print self.request.headers
         print self.request.body
-        self.write("""{"returncode":"0","returnmsg":"ok"}""")
+        self.write("""{"returncode":"11","description":"ewqeqweqweqweq"}""")
 
 
 if __name__ == '__main__':
