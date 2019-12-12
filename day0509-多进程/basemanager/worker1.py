@@ -29,7 +29,7 @@ def test(num):
             print "处理结果 %d" % ret**2
         except Exception as e:
             print e
-            break
+            continue
     print "任务处理完成"
 
 if __name__ == '__main__':

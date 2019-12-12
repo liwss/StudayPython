@@ -8,6 +8,16 @@ import tornado.web
 import tornado.httpserver
 import tornado.ioloop
 import time
+import tornado.gen
+from concurrent.futures import ThreadPoolExecutor
+thread_poll = ThreadPoolExecutor(1)
+
+
+def test(i):
+    print '------------------------'
+    print time.time()
+    time.sleep(i)
+    return str(time.time())
 
 
 class IndexHandler(tornado.web.RequestHandler):
@@ -17,10 +27,12 @@ class IndexHandler(tornado.web.RequestHandler):
         # time.sleep(1)
         self.write('{"age":"20","name":"lws","other":{"addr":"china","phone":"123456"}}')
 
+    @tornado.gen.coroutine
     def post(self, *args, **kwargs):
         print self.request.headers
         print self.request.body
-        self.write("""{"returncode":"11","description":"ewqeqweqweqweq"}""")
+        data = yield thread_poll.submit(test, 10)
+        self.write(data)
 
 
 if __name__ == '__main__':
